@@ -1,0 +1,22 @@
+.first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+body.dark-theme {
+    background-color: #000;
+}
+
+body.dark-theme h1{
+    color: beige;
+}
+
+body.dark-theme .button {
+    background-color: darkblue;
+    color: white;
+}
+
+ body.dark-theme #username{
+    background-color: rgba(66, 49, 49, 0.9);
+    color: white;
+}
